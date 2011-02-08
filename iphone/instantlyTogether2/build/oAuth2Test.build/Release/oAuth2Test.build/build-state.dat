@@ -1,0 +1,51 @@
+ToAuth2Test
+v7
+r1
+
+N/Users/awbraunstein/Downloads/oAuth2Test/MainWindow.xib
+c000000004BF85C41000000000000266D
+t1274567745
+s9837
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Release/oAuth2Test.app
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Release/oAuth2Test.app/Contents/Info.plist
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Release/oAuth2Test.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Release/oAuth2Test.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Release/oAuth2Test.app/Contents/Resources/oAuth2TestViewController.nib
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/oAuth2TestViewController.xib
+c000000004BF96EE20000000000004428
+t1274638050
+s17448
+
+NoAuth2Test-Info.plist
+c000000004BF85C41000000000000038D
+t1274567745
+s909
+
+CCompileXIB /Users/awbraunstein/Downloads/oAuth2Test/MainWindow.xib
+r0
+
+CCompileXIB /Users/awbraunstein/Downloads/oAuth2Test/oAuth2TestViewController.xib
+r0
+
+CProcessInfoPlistFile /Users/awbraunstein/Downloads/oAuth2Test/build/Release/oAuth2Test.app/Contents/Info.plist oAuth2Test-Info.plist
+r0
+
+CTouch /Users/awbraunstein/Downloads/oAuth2Test/build/Release/oAuth2Test.app
+r0
+

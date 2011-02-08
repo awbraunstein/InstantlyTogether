@@ -1,0 +1,1202 @@
+ToAuth2Test
+v7
+r0
+t316868681.228913
+cCheck dependencies
+cCpResource build/Debug-iphoneos/oAuth2Test.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/Info.plist oAuth2Test-Info.plist
+cCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib
+cCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib
+cCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib
+cProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch.gch oAuth2Test_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch.gch oAuth2Test_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/main.o /Users/awbraunstein/Desktop/oAuth2Test/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/FreeFriendsViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSString+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonBase.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonParser.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonWriter.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test normal armv6
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/main.o /Users/awbraunstein/Desktop/oAuth2Test/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/FreeFriendsViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSString+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonBase.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonParser.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonWriter.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test normal armv7
+cCreateUniversalBinary /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test normal "armv6 armv7"
+cGenerateDSYMFile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app.dSYM /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test
+cProcessProductPackaging "/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision" /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/embedded.mobileprovision
+cTouch /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test.xcent
+cCodeSign /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004D2E46AF0000000000000110
+t1294878383
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.h
+c000000004D32B7D000000000000001C4
+t1295169488
+s452
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m
+c000000004D32C58F0000000000001180
+t1295173007
+s4480
+i"FreeFriendsViewController.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/JSON.h
+c000000004D06D09200000000000008F9
+t1292292242
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.h
+c000000004D06D0920000000000000A01
+t1292292242
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m
+c000000004D06D092000000000000089E
+t1292292242
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.h
+c000000004D06D0920000000000000916
+t1292292242
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m
+c000000004D06D092000000000000087D
+t1292292242
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.h
+c000000004D06D0920000000000000AED
+t1292292242
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m
+c000000004D06D0920000000000001ABC
+t1292292242
+s6844
+i"SBJSON.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.h
+c000000004D06D0920000000000000B82
+t1292292242
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m
+c000000004D06D0920000000000000AC1
+t1292292242
+s2753
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.h
+c000000004D06D0920000000000000C0B
+t1292292242
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m
+c000000004D06D09200000000000036D0
+t1292292242
+s14032
+i"SBJsonParser.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.h
+c000000004D06D0920000000000001140
+t1292292242
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m
+c000000004D06D0920000000000001F26
+t1292292242
+s7974
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.h
+c000000004D32BDBE000000000000027B
+t1295171006
+s635
+i<UIKit/UIKit.h>
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m
+c000000004D32BDC00000000000000398
+t1295171008
+s920
+i"oAuth2TestAppDelegate.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.h
+c000000004D32BDC0000000000000028F
+t1295171008
+s655
+i<UIKit/UIKit.h>
+i"oAuth2TestAppDelegate.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m
+c000000004D32C5AE0000000000000D65
+t1295173038
+s3429
+i"oAuth2TestViewController.h"
+i"oAuth2TestAppDelegate.h"
+i"FreeFriendsViewController.h"
+i"JSON/JSON.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib
+c000000004D3261E60000000000004E64
+t1295147494
+s20068
+
+N/Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib
+c000000004BF85C41000000000000266D
+t1274567745
+s9837
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+t1295175881
+s408
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app.dSYM
+t1295175835
+s102
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/FreeFriendsView.nib
+t1295175834
+s1140
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/Info.plist
+t1295175833
+s793
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/MainWindow.nib
+t1295175834
+s1129
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/PkgInfo
+t1295175833
+s8
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/ResourceRules.plist
+t1295175833
+s485
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/embedded.mobileprovision
+t1295175835
+s7189
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test
+t1295175835
+s145344
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2TestViewController.nib
+t1295175834
+s1030
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/FreeFriendsViewController.o
+t1295175568
+s48832
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1295175568
+s8508
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSString+SBJSON.o
+t1295175568
+s8432
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJSON.o
+t1295175568
+s18692
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonBase.o
+t1295175568
+s13120
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonParser.o
+t1295175569
+s34732
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonWriter.o
+t1295175569
+s24924
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/main.o
+t1295175568
+s6448
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test
+t1295175569
+s65524
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test.LinkFileList
+c000000004D32CF8E000000000000052C
+t1295175566
+s1324
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestAppDelegate.o
+t1295175568
+s52580
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestViewController.o
+t1295175568
+s58972
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/FreeFriendsViewController.o
+t1295175569
+s48692
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1295175569
+s8464
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSString+SBJSON.o
+t1295175569
+s8388
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJSON.o
+t1295175569
+s18440
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonBase.o
+t1295175569
+s12996
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonParser.o
+t1295175569
+s32688
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonWriter.o
+t1295175569
+s24536
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/main.o
+t1295175569
+s6432
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test
+t1295175569
+s61404
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test.LinkFileList
+c000000004D32CF8E000000000000052C
+t1295175566
+s1324
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestAppDelegate.o
+t1295175569
+s52484
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestViewController.o
+t1295175569
+s58696
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test.xcent
+t1295175835
+s426
+
+N/Users/awbraunstein/Desktop/oAuth2Test/main.m
+c000000004BF85C41000000000000016F
+t1274567745
+s367
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib
+c000000004BF96EE20000000000004428
+t1274638050
+s17448
+
+N/Users/awbraunstein/Desktop/oAuth2Test/oAuth2Test_Prefix.pch
+c000000004BF85C4100000000000000BD
+t1274567745
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/FreeFriendsViewController.h
+c000000004D32B7D000000000000001C4
+t1295169488
+s452
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/FreeFriendsViewController.m
+c000000004D32C58F0000000000001180
+t1295173007
+s4480
+i"FreeFriendsViewController.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/JSON.h
+c000000004D06D09200000000000008F9
+t1292292242
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/NSObject+SBJSON.h
+c000000004D06D0920000000000000A01
+t1292292242
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/NSObject+SBJSON.m
+c000000004D06D092000000000000089E
+t1292292242
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/NSString+SBJSON.h
+c000000004D06D0920000000000000916
+t1292292242
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/NSString+SBJSON.m
+c000000004D06D092000000000000087D
+t1292292242
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJSON.h
+c000000004D06D0920000000000000AED
+t1292292242
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJSON.m
+c000000004D06D0920000000000001ABC
+t1292292242
+s6844
+i"SBJSON.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonBase.h
+c000000004D06D0920000000000000B82
+t1292292242
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonBase.m
+c000000004D06D0920000000000000AC1
+t1292292242
+s2753
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonParser.h
+c000000004D06D0920000000000000C0B
+t1292292242
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonParser.m
+c000000004D06D09200000000000036D0
+t1292292242
+s14032
+i"SBJsonParser.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonWriter.h
+c000000004D06D0920000000000001140
+t1292292242
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonWriter.m
+c000000004D06D0920000000000001F26
+t1292292242
+s7974
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestAppDelegate.h
+c000000004D32BDBE000000000000027B
+t1295171006
+s635
+i<UIKit/UIKit.h>
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestAppDelegate.m
+c000000004D32BDC00000000000000398
+t1295171008
+s920
+i"oAuth2TestAppDelegate.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestViewController.h
+c000000004D32BDC0000000000000028F
+t1295171008
+s655
+i<UIKit/UIKit.h>
+i"oAuth2TestAppDelegate.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestViewController.m
+c000000004D32C5AE0000000000000D65
+t1295173038
+s3429
+i"oAuth2TestViewController.h"
+i"oAuth2TestAppDelegate.h"
+i"FreeFriendsViewController.h"
+i"JSON/JSON.h"
+
+N/Users/awbraunstein/Downloads/oAuth2Test/FreeFriendsView.xib
+c000000004D3261E60000000000004E64
+t1295147494
+s20068
+
+N/Users/awbraunstein/Downloads/oAuth2Test/MainWindow.xib
+c000000004BF85C41000000000000266D
+t1274567745
+s9837
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app.dSYM
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/FreeFriendsView.nib
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/Info.plist
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/MainWindow.nib
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/PkgInfo
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/ResourceRules.plist
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2TestViewController.nib
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/FreeFriendsViewController.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSString+SBJSON.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJSON.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonBase.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonParser.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonWriter.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestAppDelegate.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestViewController.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/FreeFriendsViewController.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSString+SBJSON.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJSON.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonBase.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonParser.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonWriter.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestAppDelegate.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestViewController.o
+t2
+s0
+
+N/Users/awbraunstein/Downloads/oAuth2Test/main.m
+c000000004BF85C41000000000000016F
+t1274567745
+s367
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Downloads/oAuth2Test/oAuth2TestViewController.xib
+c000000004BF96EE20000000000004428
+t1274638050
+s17448
+
+N/Users/awbraunstein/Downloads/oAuth2Test/oAuth2Test_Prefix.pch
+c000000004BF85C4100000000000000BD
+t1274567745
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision
+c000000004D32CED40000000000001C15
+t1295175380
+s7189
+
+N/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch.gch
+t1295175568
+s10446552
+
+N/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch.gch
+t1295175568
+s9983704
+
+N/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-ekqohzriktmicqabwvnnbhtikwff/oAuth2Test_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-gynnxrpxfrnnzqboysargslgwywl/oAuth2Test_Prefix.pch.gch
+t2
+s0
+
+NoAuth2Test-Info.plist
+c000000004BF85C41000000000000038D
+t1274567745
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316868680#316868681#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCodeSign /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+s316868681.021937
+e316868681.228869
+r1
+xCodeSign
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+o/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app: replacing existing signature
+lSLF07#2@44"CodeSign build/Debug-iphoneos/oAuth2Test.app316868681#316868681#0(105"/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app: replacing existing signature0(0#0#74"/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app32370099069714544#730"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Andrew Braunstein (3926952PLW)" --resource-rules=/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/ResourceRules.plist --entitlements /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test.xcent /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/FreeFriendsViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.708438
+e316868368.781605
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/FreeFriendsViewController.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@82"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316868368#316868368#0(423"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@118"Property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation316868368#0#208#0(6@74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316865807#165#0#165#0#0"0(22@125"Property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation316868368#208#215#0(6@74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316865807#165#0#165#0#0"0(0#0#74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m8656449792#1896"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/FreeFriendsViewController.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/FreeFriendsViewController.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/FreeFriendsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.781692
+e316868368.857821
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m316868368#316868368#0(0"0(0#0#69"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m8654669344#1881"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSString+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.826893
+e316868368.880839
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m316868368#316868368#0(0"0(0#0#69"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m8684388896#1881"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/NSString+SBJSON.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.857916
+e316868368.938472
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m316868368#316868368#0(0"0(0#0#60"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m8657915456#1863"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJSON.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJSON.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonBase.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.880935
+e316868368.942235
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m316868368#316868368#0(0"0(0#0#64"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m8656441536#1871"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonBase.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonParser.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.938567
+e316868369.072077
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m316868368#316868369#0(0"0(0#0#66"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m8655166464#1875"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonParser.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonWriter.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.942314
+e316868369.044543
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m316868368#316868369#0(0"0(0#0#66"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m8648830720#1875"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/SBJsonWriter.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/main.o /Users/awbraunstein/Desktop/oAuth2Test/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.540387
+e316868368.706695
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/main.o
+x/Users/awbraunstein/Desktop/oAuth2Test/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/awbraunstein/Desktop/oAuth2Test/main.m316868368#316868368#0(0"0(0#0#45"/Users/awbraunstein/Desktop/oAuth2Test/main.m8629778144#1846"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/main.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/main.o /Users/awbraunstein/Downloads/oAuth2Test/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.541296
+e316868368.708367
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestAppDelegate.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m316868368#316868368#0(0"0(0#0#70"/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m8624467520#1888"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestAppDelegate.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestAppDelegate.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868368.706795
+e316868368.826781
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestViewController.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m316868368#316868368#0(0"0(0#0#73"/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m8671842784#1894"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestViewController.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2TestViewController.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/FreeFriendsViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.284438
+e316868369.368568
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/FreeFriendsViewController.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@82"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316868369#316868369#0(423"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@118"Property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation316868369#0#208#0(6@74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316865807#165#0#165#0#0"0(22@125"Property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation316868369#208#215#0(6@74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316865807#165#0#165#0#0"0(0#0#74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m8657016160#1896"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/FreeFriendsViewController.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/FreeFriendsViewController.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/FreeFriendsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.368661
+e316868369.422505
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m316868369#316868369#0(0"0(0#0#69"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m8653542816#1881"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSObject+SBJSON.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSString+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.394529
+e316868369.468589
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m316868369#316868369#0(0"0(0#0#69"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m8651463776#1881"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSString+SBJSON.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/NSString+SBJSON.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.422591
+e316868369.498418
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m316868369#316868369#0(0"0(0#0#60"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m8649750144#1863"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJSON.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJSON.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonBase.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.468678
+e316868369.553111
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m316868369#316868369#0(0"0(0#0#64"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m8647555136#1871"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonBase.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonBase.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonParser.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.498501
+e316868369.653427
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m316868369#316868369#0(0"0(0#0#66"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m8644223200#1875"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonParser.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonParser.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonWriter.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.553195
+e316868369.640806
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m316868369#316868369#0(0"0(0#0#66"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m8685694240#1875"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonWriter.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/SBJsonWriter.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/main.o /Users/awbraunstein/Desktop/oAuth2Test/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.044641
+e316868369.098265
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/main.o
+x/Users/awbraunstein/Desktop/oAuth2Test/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/awbraunstein/Desktop/oAuth2Test/main.m316868369#316868369#0(0"0(0#0#45"/Users/awbraunstein/Desktop/oAuth2Test/main.m8628113440#1846"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/main.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/main.o /Users/awbraunstein/Downloads/oAuth2Test/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.098351
+e316868369.184749
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestAppDelegate.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m316868369#316868369#0(0"0(0#0#70"/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m8647915168#1888"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestAppDelegate.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestAppDelegate.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868369.184839
+e316868369.284335
+r1
+xCompileC
+xbuild/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestViewController.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m316868369#316868369#0(0"0(0#0#73"/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m8671989824#1894"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestViewController.o0#
+
+CCompileC build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2TestViewController.o /Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib
+s316868634.542917
+e316868635.012939
+r1
+xCompileXIB
+x/Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib
+lSLF07#2@30"CompileXIB FreeFriendsView.xib316868634#316868635#0(0"0(0#0#58"/Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib8686250784#617"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/FreeFriendsView.nib /Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib
+s316868633.745386
+e316868634.542839
+r1
+xCompileXIB
+x/Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib316868633#316868634#0(0"0(0#0#53"/Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib8672719744#607"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/MainWindow.nib /Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib
+s316868633.753831
+e316868634.730302
+r1
+xCompileXIB
+x/Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib
+lSLF07#2@39"CompileXIB oAuth2TestViewController.xib316868633#316868634#0(0"0(0#0#67"/Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib8672551008#635"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2TestViewController.nib /Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/awbraunstein/Downloads/oAuth2Test/FreeFriendsView.xib
+r0
+
+CCompileXIB /Users/awbraunstein/Downloads/oAuth2Test/MainWindow.xib
+r0
+
+CCompileXIB /Users/awbraunstein/Downloads/oAuth2Test/oAuth2TestViewController.xib
+r0
+
+CCpResource build/Debug-iphoneos/oAuth2Test.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s316868633.728974
+e316868633.734902
+r1
+xCpResource
+xbuild/Debug-iphoneos/oAuth2Test.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist316868633#316868633#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8684449856#559"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app0#
+
+CCreateUniversalBinary /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test normal "armv6 armv7"
+s316868635.014766
+e316868635.018445
+r1
+xCreateUniversalBinary
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/oAuth2Test.app/oAuth2Test normal "armv6 armv7"316868635#316868635#0(0"0(0#0#50"/Users/awbraunstein/Desktop/oAuth2Test/armv6 armv78654371936#604"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test -output /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test0#
+
+CCreateUniversalBinary /Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app.dSYM /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test
+s316868635.018526
+e316868635.068550
+r1
+xGenerateDSYMFile
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app.dSYM
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/oAuth2Test.app.dSYM build/Debug-iphoneos/oAuth2Test.app/oAuth2Test316868635#316868635#0(0"0(0#0#85"/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test8652745088#433"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test -o /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app.dSYM0#
+
+CGenerateDSYMFile /Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app.dSYM /Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/oAuth2Test
+r0
+
+CLd /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test normal armv6
+s316868369.072338
+e316868369.394431
+r1
+xLd
+x/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test
+xnormal
+xarmv6
+lSLF07#2@130"Link /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test316868369#316868369#0(0"0(0#0#0"8653059520#939"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -filelist /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test0#
+
+CLd /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test normal armv7
+s316868369.653501
+e316868369.731193
+r1
+xLd
+x/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test
+xnormal
+xarmv7
+lSLF07#2@130"Link /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test316868369#316868369#0(0"0(0#0#0"8657151424#939"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -filelist /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test0#
+
+CLd /Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv6/oAuth2Test normal armv6
+r0
+
+CLd /Users/awbraunstein/Downloads/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/Objects-normal/armv7/oAuth2Test normal armv7
+r0
+
+CProcessInfoPlistFile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/Info.plist oAuth2Test-Info.plist
+s316868633.729800
+e316868633.745304
+r1
+xProcessInfoPlistFile
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/Info.plist
+xoAuth2Test-Info.plist
+lSLF07#2@29"Process oAuth2Test-Info.plist316868633#316868633#0(0"0(0#0#60"/Users/awbraunstein/Desktop/oAuth2Test/oAuth2Test-Info.plist8676121568#636"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility oAuth2Test-Info.plist -genpkginfo /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/ResourceRules.plist -o /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/Info.plist oAuth2Test-Info.plist
+r0
+
+CProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch.gch oAuth2Test_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868367.206766
+e316868368.540292
+r1
+xProcessPCH
+x/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch.gch
+xoAuth2Test_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile oAuth2Test_Prefix.pch316868367#316868368#0(0"0(0#0#60"/Users/awbraunstein/Desktop/oAuth2Test/oAuth2Test_Prefix.pch8687574272#1741"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -c /Users/awbraunstein/Desktop/oAuth2Test/oAuth2Test_Prefix.pch -o /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-byvpcecrrhgyxnaojrncshagzzpb/oAuth2Test_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch.gch oAuth2Test_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868367.204574
+e316868368.478023
+r1
+xProcessPCH
+x/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch.gch
+xoAuth2Test_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile oAuth2Test_Prefix.pch316868367#316868368#0(0"0(0#0#60"/Users/awbraunstein/Desktop/oAuth2Test/oAuth2Test_Prefix.pch8656885344#1741"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/DerivedSources -c /Users/awbraunstein/Desktop/oAuth2Test/oAuth2Test_Prefix.pch -o /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-decgvidrrgemwzdnnzbbcnvmznge/oAuth2Test_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-ekqohzriktmicqabwvnnbhtikwff/oAuth2Test_Prefix.pch.gch oAuth2Test_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/oAuth2Test_Prefix-gynnxrpxfrnnzqboysargslgwywl/oAuth2Test_Prefix.pch.gch oAuth2Test_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision" /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/embedded.mobileprovision
+s316868635.068641
+e316868635.076380
+r1
+xProcessProductPackaging
+x/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision" build/Debug-iphoneos/oAuth2Test.app/embedded.mobileprovision316868635#316868635#0(0"0(0#0#99"/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/embedded.mobileprovision8687580256#495"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision" -o /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test.xcent
+s316868635.086282
+e316868635.100209
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test.xcent316868635#316868635#0(0"0(0#0#110"/Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test.xcent8676030432#503"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/awbraunstein/Desktop/oAuth2Test/build/oAuth2Test.build/Debug-iphoneos/oAuth2Test.build/oAuth2Test.xcent0#
+
+CTouch /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+s316868635.076439
+e316868635.086165
+r1
+xTouch
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+lSLF07#2@80"Touch /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app316868635#316868635#0(0"0(0#0#0"8685955936#329"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app0#
+
+CTouch /Users/awbraunstein/Downloads/oAuth2Test/build/Debug-iphoneos/oAuth2Test.app
+r0
+

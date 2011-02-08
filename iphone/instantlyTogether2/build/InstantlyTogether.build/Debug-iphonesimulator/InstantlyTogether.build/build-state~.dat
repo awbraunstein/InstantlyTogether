@@ -1,0 +1,507 @@
+TInstantlyTogether
+v7
+r0
+t316869413.319384
+cCheck dependencies
+cProcessInfoPlistFile /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/Info.plist InstantlyTogether-Info.plist
+cCompileXIB /Users/awbraunstein/Desktop/instantlyTo/MainWindow.xib
+cCompileXIB /Users/awbraunstein/Desktop/instantlyTo/oAuth2TestViewController.xib
+cCompileXIB /Users/awbraunstein/Desktop/instantlyTo/FreeFriendsView.xib
+cProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch.gch InstantlyTogether_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/main.o /Users/awbraunstein/Desktop/instantlyTo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestViewController.o /Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/FreeFriendsViewController.o /Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSObject+SBJSON.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSString+SBJSON.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJSON.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonBase.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonParser.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonWriter.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether normal i386
+cGenerateDSYMFile /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app.dSYM /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether
+cTouch /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D2E46FA0000000000000110
+t1294878458
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.h
+c000000004D32D34B00000000000001C4
+t1295176523
+s452
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m
+c000000004D32D34B0000000000001180
+t1295176523
+s4480
+i"FreeFriendsViewController.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/JSON.h
+c000000004D32D34B00000000000008F9
+t1295176523
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSObject+SBJSON.h
+c000000004D32D34B0000000000000A01
+t1295176523
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSObject+SBJSON.m
+c000000004D32D34B000000000000089E
+t1295176523
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSString+SBJSON.h
+c000000004D32D34B0000000000000916
+t1295176523
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSString+SBJSON.m
+c000000004D32D34B000000000000087D
+t1295176523
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJSON.h
+c000000004D32D34B0000000000000AED
+t1295176523
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJSON.m
+c000000004D32D34B0000000000001ABC
+t1295176523
+s6844
+i"SBJSON.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonBase.h
+c000000004D32D34B0000000000000B82
+t1295176523
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonBase.m
+c000000004D32D34B0000000000000AC1
+t1295176523
+s2753
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonParser.h
+c000000004D32D34B0000000000000C0B
+t1295176523
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonParser.m
+c000000004D32D34B00000000000036D0
+t1295176523
+s14032
+i"SBJsonParser.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonWriter.h
+c000000004D32D34B0000000000001140
+t1295176523
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonWriter.m
+c000000004D32D34B0000000000001F26
+t1295176523
+s7974
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestAppDelegate.h
+c000000004D32D34B000000000000027B
+t1295176523
+s635
+i<UIKit/UIKit.h>
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestAppDelegate.m
+c000000004D32D34B0000000000000398
+t1295176523
+s920
+i"oAuth2TestAppDelegate.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestViewController.h
+c000000004D32D34B000000000000028F
+t1295176523
+s655
+i<UIKit/UIKit.h>
+i"oAuth2TestAppDelegate.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestViewController.m
+c000000004D32D3940000000000000D68
+t1295176596
+s3432
+i"oAuth2TestViewController.h"
+i"oAuth2TestAppDelegate.h"
+i"FreeFriendsViewController.h"
+i"JSON/JSON.h"
+
+N/Users/awbraunstein/Desktop/instantlyTo/FreeFriendsView.xib
+c000000004D32D34B0000000000004E64
+t1295176523
+s20068
+
+N/Users/awbraunstein/Desktop/instantlyTo/InstantlyTogether_Prefix.pch
+c000000004D32D34B00000000000000BD
+t1295176523
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Desktop/instantlyTo/MainWindow.xib
+c000000004D32D34B000000000000266D
+t1295176523
+s9837
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app
+t1295176613
+s272
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app.dSYM
+t1295176613
+s102
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/FreeFriendsView.nib
+t1295176611
+s1140
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/Info.plist
+t1295176611
+s637
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether
+t1295176613
+s65680
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/MainWindow.nib
+t1295176611
+s1129
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/PkgInfo
+t1295176611
+s8
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/oAuth2TestViewController.nib
+t1295176611
+s1030
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/FreeFriendsViewController.o
+t1295176612
+s49320
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/InstantlyTogether.LinkFileList
+c000000004D32D3A300000000000005FE
+t1295176611
+s1534
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSObject+SBJSON.o
+t1295176613
+s8304
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSString+SBJSON.o
+t1295176613
+s8224
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJSON.o
+t1295176613
+s20088
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonBase.o
+t1295176613
+s13220
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonParser.o
+t1295176613
+s35896
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonWriter.o
+t1295176613
+s25560
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/main.o
+t1295176612
+s6304
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestAppDelegate.o
+t1295176612
+s52880
+
+N/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestViewController.o
+t1295176612
+s59340
+
+N/Users/awbraunstein/Desktop/instantlyTo/main.m
+c000000004D32D34B000000000000016F
+t1295176523
+s367
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Desktop/instantlyTo/oAuth2TestViewController.xib
+c000000004D32D34B0000000000004428
+t1295176523
+s17448
+
+N/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch.gch
+t1295176612
+s15453392
+
+NInstantlyTogether-Info.plist
+c000000004D32D34B000000000000038D
+t1295176523
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316869411#316869411#0(0"0(0#1#0"8620050144#0"0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/FreeFriendsViewController.o /Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869412.887454
+e316869412.963762
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/FreeFriendsViewController.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@83"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m316869412#316869412#0(425"/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@118"Property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation316869412#0#209#0(6@75"/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m316869323#165#0#165#0#0"0(22@125"Property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation316869412#209#216#0(6@75"/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m316869323#165#0#165#0#0"0(0#0#75"/Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m8620543424#2237"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/FreeFriendsViewController.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/FreeFriendsViewController.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSObject+SBJSON.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869412.963882
+e316869413.037261
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSObject+SBJSON.m316869412#316869413#0(0"0(0#0#70"/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSObject+SBJSON.m8619450496#2222"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSObject+SBJSON.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSString+SBJSON.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869412.964915
+e316869413.031990
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSString+SBJSON.m316869412#316869413#0(0"0(0#0#70"/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSString+SBJSON.m8619086880#2222"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/NSString+SBJSON.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJSON.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869413.032093
+e316869413.125473
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJSON.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJSON.m316869413#316869413#0(0"0(0#0#61"/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJSON.m8618630720#2204"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJSON.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonBase.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869413.037349
+e316869413.111371
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonBase.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonBase.m316869413#316869413#0(0"0(0#0#65"/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonBase.m8616953440#2212"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonBase.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonParser.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869413.111469
+e316869413.258074
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonParser.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonParser.m316869413#316869413#0(0"0(0#0#67"/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonParser.m8620683616#2216"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonParser.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonWriter.o /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869413.125557
+e316869413.212180
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonWriter.m316869413#316869413#0(0"0(0#0#67"/Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonWriter.m8619825504#2216"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/JSON/SBJsonWriter.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/main.o /Users/awbraunstein/Desktop/instantlyTo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869412.757826
+e316869412.860317
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/main.o
+x/Users/awbraunstein/Desktop/instantlyTo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/awbraunstein/Desktop/instantlyTo/main.m316869412#316869412#0(0"0(0#0#46"/Users/awbraunstein/Desktop/instantlyTo/main.m8618400896#2187"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/main.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/main.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869412.758803
+e316869412.887342
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestAppDelegate.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestAppDelegate.m316869412#316869412#0(0"0(0#0#71"/Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestAppDelegate.m8623024480#2229"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestAppDelegate.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestAppDelegate.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestViewController.o /Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869412.860409
+e316869412.964859
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestViewController.o
+x/Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestViewController.m316869412#316869412#0(0"0(0#0#74"/Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestViewController.m8620961568#2235"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/instantlyTo/Classes/oAuth2TestViewController.m -o /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/oAuth2TestViewController.o0#
+
+CCompileXIB /Users/awbraunstein/Desktop/instantlyTo/FreeFriendsView.xib
+s316869411.621219
+e316869412.018257
+r1
+xCompileXIB
+x/Users/awbraunstein/Desktop/instantlyTo/FreeFriendsView.xib
+lSLF07#2@30"CompileXIB FreeFriendsView.xib316869411#316869412#0(0"0(0#0#59"/Users/awbraunstein/Desktop/instantlyTo/FreeFriendsView.xib8618810048#655"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/FreeFriendsView.nib /Users/awbraunstein/Desktop/instantlyTo/FreeFriendsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/awbraunstein/Desktop/instantlyTo/MainWindow.xib
+s316869411.245802
+e316869411.621137
+r1
+xCompileXIB
+x/Users/awbraunstein/Desktop/instantlyTo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib316869411#316869411#0(0"0(0#0#54"/Users/awbraunstein/Desktop/instantlyTo/MainWindow.xib8619580288#645"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/MainWindow.nib /Users/awbraunstein/Desktop/instantlyTo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/awbraunstein/Desktop/instantlyTo/oAuth2TestViewController.xib
+s316869411.247415
+e316869411.719039
+r1
+xCompileXIB
+x/Users/awbraunstein/Desktop/instantlyTo/oAuth2TestViewController.xib
+lSLF07#2@39"CompileXIB oAuth2TestViewController.xib316869411#316869411#0(0"0(0#0#68"/Users/awbraunstein/Desktop/instantlyTo/oAuth2TestViewController.xib8619535360#673"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/oAuth2TestViewController.nib /Users/awbraunstein/Desktop/instantlyTo/oAuth2TestViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app.dSYM /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether
+s316869413.295191
+e316869413.314895
+r1
+xGenerateDSYMFile
+x/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app.dSYM
+x/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/InstantlyTogether.app.dSYM build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether316869413#316869413#0(0"0(0#0#107"/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether8620712256#478"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether -o /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app.dSYM0#
+
+CLd /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether normal i386
+s316869413.258156
+e316869413.295103
+r1
+xLd
+x/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether
+xnormal
+xi386
+lSLF07#2@112"Link /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether316869413#316869413#0(0"0(0#0#0"8619027456#1017"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -filelist /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/Objects-normal/i386/InstantlyTogether.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/InstantlyTogether0#
+
+CProcessInfoPlistFile /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/Info.plist InstantlyTogether-Info.plist
+s316869411.242891
+e316869411.245747
+r1
+xProcessInfoPlistFile
+x/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/Info.plist
+xInstantlyTogether-Info.plist
+lSLF07#2@36"Process InstantlyTogether-Info.plist316869411#316869411#0(0"0(0#0#68"/Users/awbraunstein/Desktop/instantlyTo/InstantlyTogether-Info.plist8620078496#574"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility InstantlyTogether-Info.plist -genpkginfo /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app/Info.plist0#
+
+CProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch.gch InstantlyTogether_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316869412.018364
+e316869412.757691
+r1
+xProcessPCH
+x/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch.gch
+xInstantlyTogether_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile InstantlyTogether_Prefix.pch316869412#316869412#0(0"0(0#0#68"/Users/awbraunstein/Desktop/instantlyTo/InstantlyTogether_Prefix.pch8618678720#2068"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator -I/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/include -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources/i386 -I/Users/awbraunstein/Desktop/instantlyTo/build/InstantlyTogether.build/Debug-iphonesimulator/InstantlyTogether.build/DerivedSources -c /Users/awbraunstein/Desktop/instantlyTo/InstantlyTogether_Prefix.pch -o /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-cetkeflwtifcvnbprmpfbcpkglnc/InstantlyTogether_Prefix.pch.gch0#
+
+CTouch /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app
+s316869413.314969
+e316869413.319347
+r1
+xTouch
+x/Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app
+lSLF07#2@95"Touch /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app316869413#316869413#0(0"0(0#0#0"8620323360#352"    cd /Users/awbraunstein/Desktop/instantlyTo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/awbraunstein/Desktop/instantlyTo/build/Debug-iphonesimulator/InstantlyTogether.app0#
+

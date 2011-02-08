@@ -1,0 +1,776 @@
+TInstantlyTogether
+v7
+r0
+t316868823.411407
+cCheck dependencies
+cCpResource build/Debug-iphoneos/InstantlyTogether.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/Info.plist InstantlyTogether-Info.plist
+cCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib
+cCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib
+cCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib
+cProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch.gch InstantlyTogether_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch.gch InstantlyTogether_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/main.o /Users/awbraunstein/Desktop/oAuth2Test/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/FreeFriendsViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSString+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonBase.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonParser.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonWriter.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/main.o /Users/awbraunstein/Desktop/oAuth2Test/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether normal armv6
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/FreeFriendsViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSString+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonBase.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonParser.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonWriter.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether normal armv7
+cCreateUniversalBinary /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether normal "armv6 armv7"
+cGenerateDSYMFile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app.dSYM /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether
+cProcessProductPackaging "/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision" /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/embedded.mobileprovision
+cTouch /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether.xcent
+cCodeSign /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004D2E46AF0000000000000110
+t1294878383
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.h
+c000000004D32B7D000000000000001C4
+t1295169488
+s452
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m
+c000000004D32C58F0000000000001180
+t1295173007
+s4480
+i"FreeFriendsViewController.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/JSON.h
+c000000004D06D09200000000000008F9
+t1292292242
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.h
+c000000004D06D0920000000000000A01
+t1292292242
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m
+c000000004D06D092000000000000089E
+t1292292242
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.h
+c000000004D06D0920000000000000916
+t1292292242
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m
+c000000004D06D092000000000000087D
+t1292292242
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.h
+c000000004D06D0920000000000000AED
+t1292292242
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m
+c000000004D06D0920000000000001ABC
+t1292292242
+s6844
+i"SBJSON.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.h
+c000000004D06D0920000000000000B82
+t1292292242
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m
+c000000004D06D0920000000000000AC1
+t1292292242
+s2753
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.h
+c000000004D06D0920000000000000C0B
+t1292292242
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m
+c000000004D06D09200000000000036D0
+t1292292242
+s14032
+i"SBJsonParser.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.h
+c000000004D06D0920000000000001140
+t1292292242
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m
+c000000004D06D0920000000000001F26
+t1292292242
+s7974
+i"SBJsonWriter.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.h
+c000000004D32BDBE000000000000027B
+t1295171006
+s635
+i<UIKit/UIKit.h>
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m
+c000000004D32BDC00000000000000398
+t1295171008
+s920
+i"oAuth2TestAppDelegate.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.h
+c000000004D32BDC0000000000000028F
+t1295171008
+s655
+i<UIKit/UIKit.h>
+i"oAuth2TestAppDelegate.h"
+i"oAuth2TestViewController.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m
+c000000004D32C5AE0000000000000D65
+t1295173038
+s3429
+i"oAuth2TestViewController.h"
+i"oAuth2TestAppDelegate.h"
+i"FreeFriendsViewController.h"
+i"JSON/JSON.h"
+
+N/Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib
+c000000004D3261E60000000000004E64
+t1295147494
+s20068
+
+N/Users/awbraunstein/Desktop/oAuth2Test/InstantlyTogether_Prefix.pch
+c000000004BF85C4100000000000000BD
+t1274567745
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib
+c000000004BF85C41000000000000266D
+t1274567745
+s9837
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app
+t1295176023
+s442
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app.dSYM
+t1295176022
+s102
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/FreeFriendsView.nib
+t1295175567
+s1140
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/Info.plist
+t1295175566
+s793
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether
+t1295176022
+s135272
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/MainWindow.nib
+t1295175566
+s1129
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/PkgInfo
+t1295175566
+s8
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/ResourceRules.plist
+t1295175566
+s485
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/embedded.mobileprovision
+t1295175569
+s7189
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/oAuth2TestViewController.nib
+t1295175566
+s1030
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether.xcent
+t1295176022
+s426
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/FreeFriendsViewController.o
+t1295176021
+s48832
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether
+t1295176021
+s65664
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether.LinkFileList
+c000000004D32D15200000000000005B8
+t1295176018
+s1464
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1295176021
+s8508
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSString+SBJSON.o
+t1295176021
+s8432
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJSON.o
+t1295176021
+s18692
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonBase.o
+t1295176021
+s13120
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonParser.o
+t1295176021
+s34732
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonWriter.o
+t1295176021
+s24924
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/main.o
+t1295176020
+s6448
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestAppDelegate.o
+t1295176020
+s52580
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestViewController.o
+t1295176021
+s58972
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/FreeFriendsViewController.o
+t1295176022
+s48692
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether
+t1295176022
+s61544
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether.LinkFileList
+c000000004D32D15200000000000005B8
+t1295176018
+s1464
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1295176022
+s8464
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSString+SBJSON.o
+t1295176022
+s8388
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJSON.o
+t1295176022
+s18440
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonBase.o
+t1295176022
+s12996
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonParser.o
+t1295176022
+s32688
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonWriter.o
+t1295176022
+s24536
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/main.o
+t1295176021
+s6432
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestAppDelegate.o
+t1295176021
+s52484
+
+N/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestViewController.o
+t1295176021
+s58696
+
+N/Users/awbraunstein/Desktop/oAuth2Test/main.m
+c000000004BF85C41000000000000016F
+t1274567745
+s367
+i<UIKit/UIKit.h>
+
+N/Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib
+c000000004BF96EE20000000000004428
+t1274638050
+s17448
+
+N/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision
+c000000004D32CED40000000000001C15
+t1295175380
+s7189
+
+N/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch.gch
+t1295176020
+s10446552
+
+N/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch.gch
+t1295176020
+s9983704
+
+NInstantlyTogether-Info.plist
+c000000004BF85C41000000000000038D
+t1274567745
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316868818#316868819#0(0"0(0#1#0"8613099808#0"0#
+
+CCodeSign /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app
+s316868822.713484
+e316868823.411363
+r1
+xCodeSign
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app
+o/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app: replacing existing signature
+lSLF07#2@51"CodeSign build/Debug-iphoneos/InstantlyTogether.app316868822#316868823#0(112"/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app: replacing existing signature0(0#0#81"/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app8612932864#765"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Andrew Braunstein (3926952PLW)" --resource-rules=/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/ResourceRules.plist --entitlements /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether.xcent /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/FreeFriendsViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868820.984770
+e316868821.250045
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/FreeFriendsViewController.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@82"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316868820#316868821#0(423"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@118"Property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation316868821#0#208#0(6@74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316865807#165#0#165#0#0"0(22@125"Property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation316868821#208#215#0(6@74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316865807#165#0#165#0#0"0(0#0#74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m8609489280#2036"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/FreeFriendsViewController.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868821.250144
+e316868821.348172
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m316868821#316868821#0(0"0(0#0#69"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m8612707680#2021"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSString+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868821.256815
+e316868821.307030
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m316868821#316868821#0(0"0(0#0#69"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m8612249408#2021"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868821.307116
+e316868821.483348
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m316868821#316868821#0(0"0(0#0#60"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m8611912864#2003"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonBase.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868821.348258
+e316868821.476908
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m316868821#316868821#0(0"0(0#0#64"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m8613055968#2011"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonParser.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868821.476999
+e316868821.633881
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m316868821#316868821#0(0"0(0#0#66"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m8613230240#2015"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonWriter.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868821.483460
+e316868821.634885
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m316868821#316868821#0(0"0(0#0#66"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m8600681408#2015"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/main.o /Users/awbraunstein/Desktop/oAuth2Test/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868820.867182
+e316868820.933379
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/main.o
+x/Users/awbraunstein/Desktop/oAuth2Test/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/awbraunstein/Desktop/oAuth2Test/main.m316868820#316868820#0(0"0(0#0#45"/Users/awbraunstein/Desktop/oAuth2Test/main.m8612693440#1986"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/main.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868820.868722
+e316868820.984675
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestAppDelegate.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m316868820#316868820#0(0"0(0#0#70"/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m8612631648#2028"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestAppDelegate.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868820.933468
+e316868821.256732
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestViewController.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m316868820#316868821#0(0"0(0#0#73"/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m8612278944#2034"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/oAuth2TestViewController.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/FreeFriendsViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868821.814323
+e316868822.153690
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/FreeFriendsViewController.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@82"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316868821#316868822#0(423"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m:165: warning: property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@118"Property 'table' requires method '-table' to be defined - use @synthesize, @dynamic or provide a method implementation316868821#0#208#0(6@74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316865807#165#0#165#0#0"0(22@125"Property 'table' requires the method 'setTable:' to be defined - use @synthesize, @dynamic or provide a method implementation316868821#208#215#0(6@74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m316865807#165#0#165#0#0"0(0#0#74"/Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m8612880000#2036"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/FreeFriendsViewController.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/FreeFriendsViewController.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868821.856962
+e316868822.157296
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m316868821#316868822#0(0"0(0#0#69"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m8612297504#2021"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSObject+SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSObject+SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSString+SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868822.153773
+e316868822.232790
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m316868822#316868822#0(0"0(0#0#69"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m8609421504#2021"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/NSString+SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/NSString+SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJSON.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868822.157371
+e316868822.263542
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJSON.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m316868822#316868822#0(0"0(0#0#60"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m8605448352#2003"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJSON.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJSON.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonBase.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868822.232880
+e316868822.364481
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m316868822#316868822#0(0"0(0#0#64"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m8611631680#2011"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonBase.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonBase.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonParser.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868822.263639
+e316868822.566473
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m316868822#316868822#0(0"0(0#0#66"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m8611372768#2015"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonParser.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonParser.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonWriter.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868822.364575
+e316868822.566120
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m316868822#316868822#0(0"0(0#0#66"/Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m8612962656#2015"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/JSON/SBJsonWriter.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/SBJsonWriter.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/main.o /Users/awbraunstein/Desktop/oAuth2Test/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868821.633974
+e316868821.688964
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/main.o
+x/Users/awbraunstein/Desktop/oAuth2Test/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/awbraunstein/Desktop/oAuth2Test/main.m316868821#316868821#0(0"0(0#0#45"/Users/awbraunstein/Desktop/oAuth2Test/main.m8612685792#1986"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/main.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestAppDelegate.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868821.689056
+e316868821.814225
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestAppDelegate.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m316868821#316868821#0(0"0(0#0#70"/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m8612192096#2028"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestAppDelegate.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestAppDelegate.o0#
+
+CCompileC build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestViewController.o /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868821.693598
+e316868821.856874
+r1
+xCompileC
+xbuild/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestViewController.o
+x/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m316868821#316868821#0(0"0(0#0#73"/Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m8604684736#2034"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -include /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch -c /Users/awbraunstein/Desktop/oAuth2Test/Classes/oAuth2TestViewController.m -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/oAuth2TestViewController.o0#
+
+CCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/FreeFriendsView.xib
+r0
+
+CCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/MainWindow.xib
+r0
+
+CCompileXIB /Users/awbraunstein/Desktop/oAuth2Test/oAuth2TestViewController.xib
+r0
+
+CCpResource build/Debug-iphoneos/InstantlyTogether.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether normal "armv6 armv7"
+s316868822.606929
+e316868822.611723
+r1
+xCreateUniversalBinary
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether
+xnormal
+xarmv6 armv7
+lSLF07#2@103"CreateUniversalBinary build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether normal "armv6 armv7"316868822#316868822#0(0"0(0#0#50"/Users/awbraunstein/Desktop/oAuth2Test/armv6 armv78611389760#660"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether -output /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether0#
+
+CGenerateDSYMFile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app.dSYM /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether
+s316868822.611787
+e316868822.670010
+r1
+xGenerateDSYMFile
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app.dSYM
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether
+lSLF07#2@125"GenerateDSYMFile build/Debug-iphoneos/InstantlyTogether.app.dSYM build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether316868822#316868822#0(0"0(0#0#99"/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether8610236960#454"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/InstantlyTogether -o /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app.dSYM0#
+
+CLd /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether normal armv6
+s316868821.634938
+e316868821.693509
+r1
+xLd
+x/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether
+xnormal
+xarmv6
+lSLF07#2@151"Link /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether316868821#316868821#0(0"0(0#0#0"8612351904#981"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -filelist /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv6/InstantlyTogether0#
+
+CLd /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether normal armv7
+s316868822.566541
+e316868822.606824
+r1
+xLd
+x/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether
+xnormal
+xarmv7
+lSLF07#2@151"Link /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether316868822#316868822#0(0"0(0#0#0"8612167744#981"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -filelist /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/Objects-normal/armv7/InstantlyTogether0#
+
+CProcessInfoPlistFile /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/Info.plist InstantlyTogether-Info.plist
+r0
+
+CProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch.gch InstantlyTogether_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316868819.002634
+e316868820.866991
+r1
+xProcessPCH
+x/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch.gch
+xInstantlyTogether_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile InstantlyTogether_Prefix.pch316868819#316868820#0(0"0(0#0#67"/Users/awbraunstein/Desktop/oAuth2Test/InstantlyTogether_Prefix.pch8608949216#1874"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv7 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -c /Users/awbraunstein/Desktop/oAuth2Test/InstantlyTogether_Prefix.pch -o /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-byvpcecrrhgyxnaojrncshagzzpb/InstantlyTogether_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch.gch InstantlyTogether_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316868819.001612
+e316868820.428356
+r1
+xProcessPCH
+x/var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch.gch
+xInstantlyTogether_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile InstantlyTogether_Prefix.pch316868819#316868820#0(0"0(0#0#67"/Users/awbraunstein/Desktop/oAuth2Test/InstantlyTogether_Prefix.pch6087015618691822592#1874"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-generated-files.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-own-target-headers.hmap -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-all-target-headers.hmap -iquote /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether-project-headers.hmap -F/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos -I/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/include -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources/armv6 -I/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/DerivedSources -c /Users/awbraunstein/Desktop/oAuth2Test/InstantlyTogether_Prefix.pch -o /var/folders/WQ/WQB8pEQ6HnKx7xbyGcwqu++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InstantlyTogether_Prefix-decgvidrrgemwzdnnzbbcnvmznge/InstantlyTogether_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/awbraunstein/Library/MobileDevice/Provisioning Profiles/FD4FD4F3-7657-4742-8421-2C5CCF14EC20.mobileprovision" /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether.xcent
+s316868822.674151
+e316868822.713419
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether.xcent
+lSLF07#2@205"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether.xcent316868822#316868822#0(0"0(0#0#131"/Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether.xcent8607812864#524"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/awbraunstein/Desktop/oAuth2Test/build/InstantlyTogether.build/Debug-iphoneos/InstantlyTogether.build/InstantlyTogether.xcent0#
+
+CTouch /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app
+s316868822.670140
+e316868822.674077
+r1
+xTouch
+x/Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app
+lSLF07#2@87"Touch /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app316868822#316868822#0(0"0(0#0#0"8609400608#336"    cd /Users/awbraunstein/Desktop/oAuth2Test    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/awbraunstein/Desktop/oAuth2Test/build/Debug-iphoneos/InstantlyTogether.app0#
+

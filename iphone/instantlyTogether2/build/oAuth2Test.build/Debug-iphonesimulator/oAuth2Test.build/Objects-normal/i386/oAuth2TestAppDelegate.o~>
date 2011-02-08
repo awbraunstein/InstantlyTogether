@@ -1,0 +1,2 @@
+/Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestAppDelegate.m:40: warning: property 'arr' requires method '-arr' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/awbraunstein/Downloads/oAuth2Test/Classes/oAuth2TestAppDelegate.m:40: warning: property 'arr' requires the method 'setArr:' to be defined - use @synthesize, @dynamic or provide a method implementation
